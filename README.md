@@ -3,7 +3,7 @@ This is a submission for a coursera project as described <a href="https://github
 
 Each of the plots created only depict data  from the dates 2007-02-01 and 2007-02-02.
 
-The description of each of the files follow:
+The description for each of the files follow:
 * <b>plot1.R</b>: Code to generate a histogram for global active power data.
 * <b>plot2.R</b>: Code to generate a line plot for global active power data.
 * <b>plot3.R</b>: Code to generate 3 line plots on one graph, one corresponding to each of the three sub-meterings.
