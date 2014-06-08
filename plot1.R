@@ -12,7 +12,7 @@ DataSet <- subset(read.table("household_power_consumption.txt", sep = ";",header
 
 png("plot1.png");
 hist(as.numeric(as.character(DataSet$Global_active_power))
-     , col = "red", xlab = "Global active power (kilowatts)", main = "Global Active Power");
+     , col = "red", xlab = "Global Active Power (kilowatts)", main = "Global Active Power");
 
 dev.off();
 
