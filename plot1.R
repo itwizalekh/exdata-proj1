@@ -1,5 +1,5 @@
 rm(list=ls())
-setwd("C:/Misc/R_work/data");
+#setwd("C:/Misc/R_work/data");
 
 # Instead of reading the entire dataset in memory, and then subsetting...
 #DataSet <- read.table("household_power_consumption.txt", sep = ";",header=TRUE);

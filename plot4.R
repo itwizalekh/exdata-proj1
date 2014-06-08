@@ -1,6 +1,6 @@
 rm(list=ls());
 
-setwd("C:/Misc/R_work/data");
+#setwd("C:/Misc/R_work/data");
 DataSet <- subset(read.table("household_power_consumption.txt", sep = ";",header=TRUE),
                   as.Date(Date,  format="%d/%m/%Y") == as.Date("2007-02-01") | as.Date(Date,  format="%d/%m/%Y") == as.Date("2007-02-02"));
 
